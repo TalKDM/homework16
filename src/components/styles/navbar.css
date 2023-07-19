@@ -1,0 +1,51 @@
+
+.navbar {
+    width: 100%;
+    background-color: darkblue;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-left {
+    display: flex;
+    margin-left: 20px;
+}
+
+.logo {
+    color: white;
+    font-family: 'Chela One', cursive;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-shadow: 4px 3px 2px rgba(20, 128, 119, 1);
+}
+
+.links-right {
+    display: flex;
+    margin-right: 20px;
+    color: white;
+}
+
+.links-right a {
+    text-decoration: none;
+    color: white;
+}
+
+.links-right a:hover {
+    color: yellow;
+}
+
+.links-left a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.links-left a:hover {
+    color: red;
+}
+
+
+
+

@@ -1,0 +1,32 @@
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.prod {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: fit-content;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+p {
+    margin: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+.btn {
+    margin-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid red;
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
